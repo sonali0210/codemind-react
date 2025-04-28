@@ -1,0 +1,77 @@
+.parent-container {
+  background-color: #e3f2fd; /* Light blue background */
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #2196f3; /* Blue border */
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 15px auto;
+  max-width: 600px;
+}
+
+.parent-container h2 {
+  font-size: 1.5rem;
+  color: #1565c0;
+}
+
+.parent-container p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.childA-container {
+  background-color: #fff3e0; /* Soft orange background */
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #ff9800; /* Orange border */
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 15px auto;
+  max-width: 550px;
+}
+
+.childA-container h2 {
+  font-size: 1.4rem;
+  color: #e65100;
+}
+
+.childA-container p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.childB-container {
+  background-color: #fce4ec; /* Soft pink background */
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #e91e63; /* Deep pink border */
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 15px auto;
+  max-width: 500px;
+}
+
+.childB-container h2 {
+  font-size: 1.3rem;
+  color: #880e4f;
+}
+
+.childB-container p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6a1b9a;
+}
+
+.inherited {
+  background-color: #fbeaff;
+  border-left: 5px solid #ba00d3;
+  padding: 10px 12px;
+  margin: 8px 0;
+  color: #4a0072; /* <-- New text color: deep purple */
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: inset 0 0 3px #d500f9;
+  border-radius: 4px;
+}
+
